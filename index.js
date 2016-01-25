@@ -71,7 +71,7 @@ inquirer.prompt([
   if(answers.out==='stdout'){
     console.log(manifest)
   }else{
-    let filepath = path.join(answers.dir.replace('~', os.homedir()), 'appmanifest_'+answers.appid+'.acf')
+    let filepath = path.join((answers.dir||answers.out).replace('~', os.homedir()), 'appmanifest_'+answers.appid+'.acf')
     fs.writeSync(filepath, manifest)
     console.log('File has been written to '+chalk.yellow(filepath))
     if(answers.out===steamapps){
