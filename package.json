@@ -1,0 +1,19 @@
+{
+  "name": "steam-appmanifestor",
+  "version": "1.0.0",
+  "description": "Create appmanifest files to download Steam games.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "bin": {
+    "appmanifestor": "index.js"
+  },
+  "author": "AgentEpsilon",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "inquirer": "^0.11.3"
+  },
+  "preferGlobal": true
+}
