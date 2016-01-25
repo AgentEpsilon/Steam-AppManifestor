@@ -72,7 +72,7 @@ inquirer.prompt([
     console.log(manifest)
   }else{
     let filepath = path.join((answers.dir||answers.out).replace('~', os.homedir()), 'appmanifest_'+answers.appid+'.acf')
-    fs.writeSync(filepath, manifest)
+    fs.writeFileSync(filepath, manifest)
     console.log('File has been written to '+chalk.yellow(filepath))
     if(answers.out===steamapps){
       console.log(chalk.purple.bold('Restart Steam')+'. The app download should begin immediately.')
