@@ -4,6 +4,8 @@ Download Steam games unavailable to your platform through `appmanifest` trickery
 
 This **should** work on all platforms, although only OS X has been tested even partially.
 
+:warning:**THIS _WILL NOT_ WORK ON ALL GAMES! YOUR MILEAGE MAY VARY!**:warning:
+
 Based on [this repo](https://github.com/dotfloat/steam-appmanifest).
 
 ## Usage
