@@ -75,7 +75,7 @@ inquirer.prompt([
     {
       "AppID"  "${answers.appid}"
       "Universe" "1"
-      "InstallDir" "${answers.installdir}"
+      "installdir" "${answers.installdir}"
       "StateFlags" "1026"
     }
   `
