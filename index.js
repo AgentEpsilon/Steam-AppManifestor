@@ -75,7 +75,7 @@ inquirer.prompt([
     fs.writeFileSync(filepath, manifest)
     console.log('File has been written to '+chalk.yellow(filepath))
     if(answers.out===steamapps){
-      console.log(chalk.purple.bold('Restart Steam')+'. The app download should begin immediately.')
+      console.log(chalk.magenta.bold('Restart Steam')+'. The app download should begin immediately.')
     }
   }
 })
