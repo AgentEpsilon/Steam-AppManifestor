@@ -29,6 +29,8 @@ The program will walk you through the following steps:
 
 - AppID: Just enter the AppID you found on http://steamdb.info/.
 
+- Game Name: The name of the folder inside of `Steam/SteamApps/common` that your game will install in.
+
 - Where would you like to output the appmanifest?
 This will give you four choices:
   1. Your SteamApps folder (detected based on platform, may not be correct)

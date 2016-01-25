@@ -31,6 +31,16 @@ inquirer.prompt([
     }
   },
   {
+    'type': 'input',
+    'name': 'installdir',
+    'message': 'Game Name:',
+    'validate': input=>{
+      if(input.length===0){
+        return "You have to write "+chalk.bold('something')+"!"
+      }else return true
+    }
+  },
+  {
     'type': 'list',
     'name': 'out',
     'message': 'Where would you like to output the appmanifest?',
@@ -65,6 +75,7 @@ inquirer.prompt([
     {
       "AppID"  "${answers.appid}"
       "Universe" "1"
+      "InstallDir" "${answers.installdir}"
       "StateFlags" "1026"
     }
   `
