@@ -1,6 +1,6 @@
 {
   "name": "steam-appmanifestor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Create appmanifest files to download Steam games.",
   "main": "index.js",
   "scripts": {
