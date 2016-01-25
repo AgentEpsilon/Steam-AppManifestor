@@ -11,7 +11,17 @@ Based on [this repo](https://github.com/dotfloat/steam-appmanifest).
 Find the AppID for the app you want to download.
 These IDs can be found here: http://steamdb.info/
 
-//TODO: installation procedure
+Next, install globally with `npm`:
+
+```
+npm install -g steam-appmanifestor
+```
+
+And run the program:
+
+```
+appmanifestor
+```
 
 The program will walk you through the following steps:
 
