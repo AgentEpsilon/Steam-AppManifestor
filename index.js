@@ -33,7 +33,7 @@ inquirer.prompt([
   {
     'type': 'input',
     'name': 'installdir',
-    'message': 'Game Name:',
+    'message': 'App Name:',
     'validate': input=>{
       if(input.length===0){
         return "You have to write "+chalk.bold('something')+"!"
