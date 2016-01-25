@@ -10,6 +10,10 @@
     "appmanifestor": "index.js"
   },
   "author": "AgentEpsilon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgentEpsilon/Steam-AppManifestor"
+  }
   "license": "ISC",
   "dependencies": {
     "chalk": "^1.1.1",
